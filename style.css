@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-image: url("./images/loging_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card{
+    position: relative;
+    margin: 15px auto;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.card:hover{
+    transform: scale(1.03);
+}
+#cartIcon{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border: 1px solid gray;
+    border-radius: 10px 5px;
+    padding: 2px 4px;
+    color: green;
+    font-size: 23px;
+}
+#cartIcon:hover{
+    background-color: green;
+    color: white;
+}
+
+#clients img{
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: auto;
+}
+#clients .col-lg-4{
+    cursor: pointer;
+    text-align: center;
+}
+#clients .card{
+    border: none;
+}
+
+#clients .col-lg-4:hover{
+    transform: scale(1.03);
+}
+.form-control{
+    border: 2px solid rgb(8, 129, 123);
+    background: transparent;
+    border-radius: 30px;
+   
+}
+.form-control:focus{
+    box-shadow: none;
+  
+    outline: none;
+}
+footer {
+    
+    
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  footer img{
+    width: 30px;
+  }
